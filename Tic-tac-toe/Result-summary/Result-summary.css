@@ -1,0 +1,111 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+.main{
+    /* padding: 24px; */
+    width: 400px;
+    height: 300px;
+    margin: 200px auto;
+    display: flex;
+    align-items: center;
+}
+.result{
+    border-radius: 8px;
+    width: 200px;
+    height: 270px;
+    background-color: hsl(252, 100%, 67%);
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+    text-align: center;
+    padding: 20px;
+}
+.score{
+    background-color: hsla(256, 72%, 46%, 1);
+    color: white;
+    width: 120px;
+    height: 120px;
+    border-radius: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin: auto;
+}
+.result h2{
+    color: hsl(0, 0%, 100%);
+    font-size: 16px;
+    font-weight: 200;
+}
+h2{
+    font-size: large;
+}
+.result p{
+    font-size: 12px;
+    font-weight: 50;
+}
+.details{
+    width: 200px;
+    height: 270px;
+    background-color: hsl(0, 18%, 97%);
+    border-bottom-right-radius: 12px;
+    border-top-right-radius: 12px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 16px;
+    padding: 16px;
+    font-size: 12px;
+    word-spacing: 24px;
+}
+.comment{
+    color: hsl(0, 0%, 100%);
+}
+button{
+    width: 150px;
+    height: 6px;
+    border-radius: 12px;
+    padding: 10px 16px;
+    background-color: rgb(1, 1, 2);
+    color: white;
+    font-size: 10px;
+}
+.react{
+    background-color: hsl(0, 45%, 94%);
+    width: 150px;
+    color: hsl(0, 81%, 65%);
+    word-spacing: 28px;
+}
+.memo{
+    background-color: hsl(36, 75%, 81%);
+    width: 150px;
+    color: hsl(36, 85%, 69%);
+    word-spacing: 32px;
+}
+.verb{
+    background-color: hsl(166, 75%, 85%);
+    width: 150px;
+    color: hsl(166, 81%, 60%);
+    word-spacing: 40px;
+}
+.visual{
+    background-color: hsl(234, 52%, 78%);
+    width: 150px;
+    color: hsl(234, 71%, 51%);
+    word-spacing: 44px;
+}
+span{
+    color: black;
+}
+.react, .memo, .verb, .visual{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    font-size: 10px;
+    padding: 8px;
+}
+img{
+    height: 12px;
+}

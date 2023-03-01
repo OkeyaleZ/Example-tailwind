@@ -4,9 +4,59 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https:cdn.tailwindcss.com"></script>
+    <link href="font">
     <title>Document</title>
 </head>
 <body>
+    <div class="container mx-auto w-full bg-white"></div>
+    <header class="flex justify-between items-center py-5 px-16 xl:px-16 lg:px-[50px] px-6">
+        <div class="flex items-center space-x-5 py-2">
+            <img src="./images/logo.svg" alt="">
+            <nav class="hidden lg:flex gap-5 text-gray-500">
+                <select class="font-medium focus:outline-none hover:text-gray-900">
+                    <option value="">Features</option>
+                    <option >Todo List</option>
+                    <option >Calender</option>
+                    <option >Reminder</option>
+                    <option >Planning</option>
+                </select>
+                <select class="font-medium focus:outline-none">
+                    <option >Company</option>
+                    <option >History</option>
+                    <option >Our Team</option>
+                    <option >Blog</option>
+                </select>
+                <p class="font-medium focus:outline-none hover:text-gray-900">Career</p>
+                <p class="font-medium focus:outline-none hover:text-gray-900">About</p>
+            </nav>
+        </div>
+            <img src="./images/icon-menu.svg" class="lg:hidden">
+        <div class="hidden lg:flex gap-5 items-center text-gray-500">
+            <p class="font-medium focus:outline-none hover:text-gray-900">Login</p>
+                <p class="font-medium focus:outline-none hover:text-gray-900 border border-gray-500 hover:border-gray-900 px-4 py-2 rounded-xl">Register</p>
+
+        </div>
+    </header>
+    <div class="xl:mx-[100px] lg:mx-[50px] my-16">
+        <div class="container mx-auto flex gap-[100px] items-end">
+            <article class="">
+                <p class="xl:text-[70px] lg:text-[60px] font-bold text-gray-900 mb-10 leading-[75px]"> Make remote work</p>
+                <p class="text-gray-500 mb-16">Get your team in sync, no matter your locatio. Streamline processes, create team rituals and watch productivity</p>
+                <button class="decoration-none px-6 py-3 text-white bg-black rounded-xl border border-black hover:bg-white hover:text-black transition-all duration-500">Learn more</button>
+                <div class="mt-[100px] flex items-center gap-8">
+                    <img src="./images/client-databiz.svg" alt="">
+                    <img src="./images/client-audiophile.svg" alt="">
+                    <img src="./images/client-meet.svg" alt="">
+                    <img src="./images/client-maker.svg" alt="">
+                </div>
+            </article>
+                <div>
+                    <img class="hidden lg:block" src="./images/image-hero-desktop.png" alt="">
+                </div>
+
+        </div>
+    </div>
     
 </body>
 </html>
